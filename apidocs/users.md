@@ -43,7 +43,7 @@
 **Пример входных данных:**
 
     {
-    "oldpassword":"qwerty",
-    "newpassword":"1234"
+        "oldpassword":"qwerty",
+        "newpassword":"1234"
     }
 
