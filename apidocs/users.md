@@ -1,6 +1,6 @@
 #Users
 
-###PUT /apiv1/users
+###PUT /api/v1/users
 Регистрация пользователя
 
 **Коды возврата:**
@@ -15,7 +15,7 @@
       "password":"testpassword"
     }
 
-###POST /apiv1/users
+###POST /api/v1/users
 Авторизация пользователя
 
 **Коды возврата:**
@@ -30,7 +30,7 @@
       "password":"testpassword"
     }
 
-###POST /apiv1/users/USER_ID
+###POST /api/v1/users/USER_ID
 Изменение данных пользователя
 
 **Коды возврата:**
