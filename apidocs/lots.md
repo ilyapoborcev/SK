@@ -13,8 +13,14 @@
       
       {
             "lots": [
-            "Fridge Minsk 1990",
-            "Notebook Asus n56 VZ 2013"
+            {
+                  "title": "Fridge Minsk 1990",
+                  "id": "1"
+            },
+            {
+                  "title": "Notebook Asus n56 VZ 2013",
+                  "id": "2"
+            }
             ]
       }
 
@@ -58,6 +64,13 @@ end_time в формате unix time stamp
 200 - успех;    
 400 - некоректный запрос;    
 404 - лота с таким id нет в стеке (время истекло).  
+
+**Пример возвращаемых данных:**
+
+      {
+          “lot_id” : “1",
+          “current_price” : “50”
+      }
 
 ###PUT /api/v1/lots/LOT_ID/bid
 
